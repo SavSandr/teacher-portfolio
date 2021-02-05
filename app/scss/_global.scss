@@ -34,23 +34,30 @@ body {
     color: $text;
 }
 
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-}
-.content{
-    flex: 1 0 auto;
-    background-color: $gray;
-}
-.footer {
-    flex: 0 0 auto;
-}
+// .wrapper {
+//     display: flex;
+//     flex-direction: column;
+//     min-height: 100%;
+// }
+// .content{
+//     flex: 1 0 auto;
+//     background-color: $gray;
+// }
+// .footer {
+//     flex: 0 0 auto;
+// }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+    height: 100%;
+}
+.small-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
 }
 .container-fluid {
     max-width: 100%;
